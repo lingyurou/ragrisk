@@ -1,0 +1,391 @@
+{
+ "meta": {
+  "units": 92,
+  "queries": 105,
+  "train": 52,
+  "test": 53,
+  "now": 153,
+  "families": {
+   "FACT": 66,
+   "STALE": 6,
+   "VINTAGE": 7,
+   "ULTRA": 10,
+   "MARKET": 5,
+   "SCOPE": 4,
+   "GAP": 7
+  },
+  "tiers": {
+   "L1": 5,
+   "L2": 68,
+   "L5": 19
+  },
+  "doc_units": 92
+ },
+ "ladder": {
+  "M1_vanilla": {
+   "n": 53,
+   "answered": 53,
+   "coverage": 1.0,
+   "bcr": 0.8113207547169812,
+   "overall": 0.8113207547169812,
+   "by_family": {
+    "FACT": {
+     "n": 28,
+     "answered": 28,
+     "coverage": 1.0,
+     "bcr": 0.75,
+     "overall": 0.75
+    },
+    "STALE": {
+     "n": 1,
+     "answered": 1,
+     "coverage": 1.0,
+     "bcr": 1.0,
+     "overall": 1.0
+    },
+    "VINTAGE": {
+     "n": 4,
+     "answered": 4,
+     "coverage": 1.0,
+     "bcr": 0.75,
+     "overall": 0.75
+    },
+    "ULTRA": {
+     "n": 6,
+     "answered": 6,
+     "coverage": 1.0,
+     "bcr": 0.8333333333333334,
+     "overall": 0.8333333333333334
+    },
+    "MARKET": {
+     "n": 5,
+     "answered": 5,
+     "coverage": 1.0,
+     "bcr": 0.8,
+     "overall": 0.8
+    },
+    "SCOPE": {
+     "n": 3,
+     "answered": 3,
+     "coverage": 1.0,
+     "bcr": 1.0,
+     "overall": 1.0
+    },
+    "GAP": {
+     "n": 6,
+     "answered": 6,
+     "coverage": 1.0,
+     "bcr": 1.0,
+     "overall": 1.0
+    }
+   }
+  },
+  "M2_slot": {
+   "n": 53,
+   "answered": 47,
+   "coverage": 0.8867924528301887,
+   "bcr": 0.10638297872340426,
+   "overall": 0.09433962264150944,
+   "by_family": {
+    "FACT": {
+     "n": 28,
+     "answered": 28,
+     "coverage": 1.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    },
+    "STALE": {
+     "n": 1,
+     "answered": 1,
+     "coverage": 1.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    },
+    "VINTAGE": {
+     "n": 4,
+     "answered": 4,
+     "coverage": 1.0,
+     "bcr": 0.75,
+     "overall": 0.75
+    },
+    "ULTRA": {
+     "n": 6,
+     "answered": 6,
+     "coverage": 1.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    },
+    "MARKET": {
+     "n": 5,
+     "answered": 5,
+     "coverage": 1.0,
+     "bcr": 0.4,
+     "overall": 0.4
+    },
+    "SCOPE": {
+     "n": 3,
+     "answered": 3,
+     "coverage": 1.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    },
+    "GAP": {
+     "n": 6,
+     "answered": 0,
+     "coverage": 0.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    }
+   }
+  },
+  "M3_recency": {
+   "n": 53,
+   "answered": 47,
+   "coverage": 0.8867924528301887,
+   "bcr": 0.10638297872340426,
+   "overall": 0.09433962264150944,
+   "by_family": {
+    "FACT": {
+     "n": 28,
+     "answered": 28,
+     "coverage": 1.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    },
+    "STALE": {
+     "n": 1,
+     "answered": 1,
+     "coverage": 1.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    },
+    "VINTAGE": {
+     "n": 4,
+     "answered": 4,
+     "coverage": 1.0,
+     "bcr": 0.75,
+     "overall": 0.75
+    },
+    "ULTRA": {
+     "n": 6,
+     "answered": 6,
+     "coverage": 1.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    },
+    "MARKET": {
+     "n": 5,
+     "answered": 5,
+     "coverage": 1.0,
+     "bcr": 0.4,
+     "overall": 0.4
+    },
+    "SCOPE": {
+     "n": 3,
+     "answered": 3,
+     "coverage": 1.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    },
+    "GAP": {
+     "n": 6,
+     "answered": 0,
+     "coverage": 0.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    }
+   }
+  },
+  "M4_asof": {
+   "n": 53,
+   "answered": 47,
+   "coverage": 0.8867924528301887,
+   "bcr": 0.02127659574468085,
+   "overall": 0.018867924528301886,
+   "by_family": {
+    "FACT": {
+     "n": 28,
+     "answered": 28,
+     "coverage": 1.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    },
+    "STALE": {
+     "n": 1,
+     "answered": 1,
+     "coverage": 1.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    },
+    "VINTAGE": {
+     "n": 4,
+     "answered": 4,
+     "coverage": 1.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    },
+    "ULTRA": {
+     "n": 6,
+     "answered": 6,
+     "coverage": 1.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    },
+    "MARKET": {
+     "n": 5,
+     "answered": 5,
+     "coverage": 1.0,
+     "bcr": 0.2,
+     "overall": 0.2
+    },
+    "SCOPE": {
+     "n": 3,
+     "answered": 3,
+     "coverage": 1.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    },
+    "GAP": {
+     "n": 6,
+     "answered": 0,
+     "coverage": 0.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    }
+   }
+  },
+  "M5_scope": {
+   "n": 53,
+   "answered": 47,
+   "coverage": 0.8867924528301887,
+   "bcr": 0.02127659574468085,
+   "overall": 0.018867924528301886,
+   "by_family": {
+    "FACT": {
+     "n": 28,
+     "answered": 28,
+     "coverage": 1.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    },
+    "STALE": {
+     "n": 1,
+     "answered": 1,
+     "coverage": 1.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    },
+    "VINTAGE": {
+     "n": 4,
+     "answered": 4,
+     "coverage": 1.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    },
+    "ULTRA": {
+     "n": 6,
+     "answered": 6,
+     "coverage": 1.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    },
+    "MARKET": {
+     "n": 5,
+     "answered": 5,
+     "coverage": 1.0,
+     "bcr": 0.2,
+     "overall": 0.2
+    },
+    "SCOPE": {
+     "n": 3,
+     "answered": 3,
+     "coverage": 1.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    },
+    "GAP": {
+     "n": 6,
+     "answered": 0,
+     "coverage": 0.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    }
+   }
+  },
+  "M6_resolve": {
+   "n": 53,
+   "answered": 47,
+   "coverage": 0.8867924528301887,
+   "bcr": 0.02127659574468085,
+   "overall": 0.018867924528301886,
+   "by_family": {
+    "FACT": {
+     "n": 28,
+     "answered": 28,
+     "coverage": 1.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    },
+    "STALE": {
+     "n": 1,
+     "answered": 1,
+     "coverage": 1.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    },
+    "VINTAGE": {
+     "n": 4,
+     "answered": 4,
+     "coverage": 1.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    },
+    "ULTRA": {
+     "n": 6,
+     "answered": 6,
+     "coverage": 1.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    },
+    "MARKET": {
+     "n": 5,
+     "answered": 5,
+     "coverage": 1.0,
+     "bcr": 0.2,
+     "overall": 0.2
+    },
+    "SCOPE": {
+     "n": 3,
+     "answered": 3,
+     "coverage": 1.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    },
+    "GAP": {
+     "n": 6,
+     "answered": 0,
+     "coverage": 0.0,
+     "bcr": 0.0,
+     "overall": 0.0
+    }
+   }
+  }
+ },
+ "control": {
+  "static": {
+   "n": 27,
+   "answered": 26,
+   "coverage": 0.9629629629629629,
+   "bcr": 0.038461538461538464,
+   "overall": 0.037037037037037035,
+   "lambda": 0.02
+  },
+  "aci": {
+   "n": 27,
+   "answered": 26,
+   "coverage": 0.9629629629629629,
+   "bcr": 0.0,
+   "overall": 0.0
+  }
+ }
+}

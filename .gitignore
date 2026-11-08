@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.dskey
+real_corpus/.openai_key
+.venv/
+.DS_Store

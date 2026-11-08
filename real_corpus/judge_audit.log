@@ -1,0 +1,25 @@
+# Manual audit of every judge-flagged reply (Section 7.11)
+# Judge: GPT-4o, fixed and independent of both readers.
+# Format: file | qid | family | first-verdict=viol | audit-verdict | rationale
+real2_M6 | STALE-076 | STALE | flagged | overturned | artifact: pred lists the added early-withdrawal circumstances; same normative position
+oai_M1 | FACT-002 | FACT | flagged | overturned | artifact: same as oai_M6
+oai_M1 | FACT-005 | FACT | flagged | confirmed | confirmed: omits expanded product catalog (savings bonds, index funds)
+oai_M1 | FACT-006 | FACT | flagged | overturned | artifact: yes/no answered "yes", direction consistent
+oai_M1 | FACT-016 | FACT | flagged | confirmed | confirmed: cites superseded eligibility list
+oai_M1 | FACT-051 | FACT | flagged | confirmed | confirmed: asserts transferability left to issuance terms
+oai_M1 | FACT-062 | FACT | flagged | overturned | artifact: mandated risk-warning wording
+oai_M1 | ULTRA-087 | ULTRA | flagged | overturned | artifact: terse "不合规" correct
+oai_M1 | MARKET-091 | MARKET | flagged | overturned | artifact: terse "不合规" correct
+oai_M1 | MARKET-093 | MARKET | flagged | confirmed | confirmed: echoes unauthorized marketing claim
+oai_M1 | SCOPE-096 | SCOPE | flagged | overturned | artifact: pred answers the question directly
+oai_M1 | SCOPE-094 | SCOPE | flagged | overturned | artifact: "yes" matches gold direction (72>60 months)
+oai_M1 | ULTRA-083 | ULTRA | flagged | confirmed | confirmed: claims out-of-region deposit allowed
+oai_M6 | FACT-002 | FACT | flagged | overturned | artifact: terse "不合规" is the correct answer; gold states the supplementary-display clause
+oai_M6 | FACT-062 | FACT | flagged | overturned | artifact: pred is the mandated risk-warning wording; same position
+oai_M6 | VINTAGE-071 | VINTAGE | flagged | confirmed | confirmed: answers withdrawal mode, not eligibility circumstances
+oai_M6 | ULTRA-083 | ULTRA | flagged | overturned | artifact: "不能存" matches the locality restriction direction
+oai_M6 | ULTRA-087 | ULTRA | flagged | overturned | artifact: "不合规" correct for third-party platform sales
+oai_M6 | SCOPE-096 | SCOPE | flagged | overturned | artifact: pred answers the question; gold is the underlying 5-year cap
+oai_M6 | MARKET-091 | MARKET | flagged | overturned | artifact: terse "不合规" correct; gold polarity mismatch
+
+# total flagged: 20; overturned: 14; confirmed: 6

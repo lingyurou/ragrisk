@@ -1,0 +1,131 @@
+{
+ "M1": {
+  "n": 30,
+  "coverage": 0.7333333333333333,
+  "bcr": 0.2272727272727273,
+  "harm": 0.43333333333333335,
+  "by_family": {
+   "FACT": {
+    "n": 14,
+    "coverage": 0.8571428571428571,
+    "bcr": 0.25
+   },
+   "STALE": {
+    "n": 3,
+    "coverage": 1.0,
+    "bcr": 0.33333333333333337
+   },
+   "VINTAGE": {
+    "n": 3,
+    "coverage": 1.0,
+    "bcr": 0.33333333333333337
+   },
+   "ULTRA": {
+    "n": 3,
+    "coverage": 0.3333333333333333,
+    "bcr": 0.0
+   },
+   "MARKET": {
+    "n": 3,
+    "coverage": 0.0,
+    "bcr": 0.0
+   },
+   "SCOPE": {
+    "n": 3,
+    "coverage": 1.0,
+    "bcr": 0.0
+   },
+   "GAP": {
+    "n": 1,
+    "coverage": 0.0,
+    "bcr": 0.0
+   }
+  }
+ },
+ "M5": {
+  "n": 30,
+  "coverage": 0.8333333333333334,
+  "bcr": 0.0,
+  "harm": 0.16666666666666663,
+  "by_family": {
+   "FACT": {
+    "n": 14,
+    "coverage": 1.0,
+    "bcr": 0.0
+   },
+   "STALE": {
+    "n": 3,
+    "coverage": 0.6666666666666666,
+    "bcr": 0.0
+   },
+   "VINTAGE": {
+    "n": 3,
+    "coverage": 0.6666666666666666,
+    "bcr": 0.0
+   },
+   "ULTRA": {
+    "n": 3,
+    "coverage": 1.0,
+    "bcr": 0.0
+   },
+   "MARKET": {
+    "n": 3,
+    "coverage": 0.3333333333333333,
+    "bcr": 0.0
+   },
+   "SCOPE": {
+    "n": 3,
+    "coverage": 1.0,
+    "bcr": 0.0
+   },
+   "GAP": {
+    "n": 1,
+    "coverage": 0.0,
+    "bcr": 0.0
+   }
+  }
+ },
+ "M6": {
+  "n": 30,
+  "coverage": 0.9666666666666667,
+  "bcr": 0.0,
+  "harm": 0.033333333333333326,
+  "by_family": {
+   "FACT": {
+    "n": 14,
+    "coverage": 1.0,
+    "bcr": 0.0
+   },
+   "STALE": {
+    "n": 3,
+    "coverage": 1.0,
+    "bcr": 0.0
+   },
+   "VINTAGE": {
+    "n": 3,
+    "coverage": 1.0,
+    "bcr": 0.0
+   },
+   "ULTRA": {
+    "n": 3,
+    "coverage": 1.0,
+    "bcr": 0.0
+   },
+   "MARKET": {
+    "n": 3,
+    "coverage": 1.0,
+    "bcr": 0.0
+   },
+   "SCOPE": {
+    "n": 3,
+    "coverage": 1.0,
+    "bcr": 0.0
+   },
+   "GAP": {
+    "n": 1,
+    "coverage": 0.0,
+    "bcr": 0.0
+   }
+  }
+ }
+}

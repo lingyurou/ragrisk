@@ -1,0 +1,51 @@
+{
+ "n": 105,
+ "answered": 94,
+ "coverage": 0.8952380952380953,
+ "bcr": 0.05319148936170213,
+ "overall": 0.047619047619047616,
+ "by_family": {
+  "FACT": {
+   "n": 66,
+   "answered": 65,
+   "coverage": 0.9848484848484849,
+   "bcr": 0.046153846153846156
+  },
+  "STALE": {
+   "n": 6,
+   "answered": 5,
+   "coverage": 0.8333333333333334,
+   "bcr": 0.0
+  },
+  "VINTAGE": {
+   "n": 7,
+   "answered": 6,
+   "coverage": 0.8571428571428571,
+   "bcr": 0.0
+  },
+  "ULTRA": {
+   "n": 10,
+   "answered": 9,
+   "coverage": 0.9,
+   "bcr": 0.1111111111111111
+  },
+  "MARKET": {
+   "n": 5,
+   "answered": 5,
+   "coverage": 1.0,
+   "bcr": 0.2
+  },
+  "SCOPE": {
+   "n": 4,
+   "answered": 4,
+   "coverage": 1.0,
+   "bcr": 0.0
+  },
+  "GAP": {
+   "n": 7,
+   "answered": 0,
+   "coverage": 0.0,
+   "bcr": 0.0
+  }
+ }
+}

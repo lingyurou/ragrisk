@@ -1,0 +1,104 @@
+{
+ "M1": {
+  "n": 105,
+  "answered": 94,
+  "coverage": 0.8952380952380953,
+  "bcr": 0.14893617021276595,
+  "overall": 0.13333333333333333,
+  "by_family": {
+   "FACT": {
+    "n": 66,
+    "answered": 65,
+    "coverage": 0.9848484848484849,
+    "bcr": 0.1076923076923077
+   },
+   "STALE": {
+    "n": 6,
+    "answered": 5,
+    "coverage": 0.8333333333333334,
+    "bcr": 0.0
+   },
+   "VINTAGE": {
+    "n": 7,
+    "answered": 6,
+    "coverage": 0.8571428571428571,
+    "bcr": 0.0
+   },
+   "ULTRA": {
+    "n": 10,
+    "answered": 9,
+    "coverage": 0.9,
+    "bcr": 0.3333333333333333
+   },
+   "MARKET": {
+    "n": 5,
+    "answered": 5,
+    "coverage": 1.0,
+    "bcr": 0.4
+   },
+   "SCOPE": {
+    "n": 4,
+    "answered": 4,
+    "coverage": 1.0,
+    "bcr": 0.5
+   },
+   "GAP": {
+    "n": 7,
+    "answered": 0,
+    "coverage": 0.0,
+    "bcr": 0.0
+   }
+  }
+ },
+ "M6": {
+  "n": 105,
+  "answered": 95,
+  "coverage": 0.9047619047619048,
+  "bcr": 0.10526315789473684,
+  "overall": 0.09523809523809523,
+  "by_family": {
+   "FACT": {
+    "n": 66,
+    "answered": 65,
+    "coverage": 0.9848484848484849,
+    "bcr": 0.06153846153846154
+   },
+   "STALE": {
+    "n": 6,
+    "answered": 6,
+    "coverage": 1.0,
+    "bcr": 0.0
+   },
+   "VINTAGE": {
+    "n": 7,
+    "answered": 7,
+    "coverage": 1.0,
+    "bcr": 0.14285714285714285
+   },
+   "ULTRA": {
+    "n": 10,
+    "answered": 8,
+    "coverage": 0.8,
+    "bcr": 0.375
+   },
+   "MARKET": {
+    "n": 5,
+    "answered": 5,
+    "coverage": 1.0,
+    "bcr": 0.2
+   },
+   "SCOPE": {
+    "n": 4,
+    "answered": 4,
+    "coverage": 1.0,
+    "bcr": 0.25
+   },
+   "GAP": {
+    "n": 7,
+    "answered": 0,
+    "coverage": 0.0,
+    "bcr": 0.0
+   }
+  }
+ }
+}

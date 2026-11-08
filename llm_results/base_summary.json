@@ -1,0 +1,157 @@
+{
+ "replay": {
+  "static": {
+   "gamma": 0.1,
+   "alpha": 0.05,
+   "lam_final": 0.02,
+   "n": 378,
+   "coverage": 0.9841269841269841,
+   "bcr": 0.0,
+   "harm": 0.0
+  },
+  "aci": {
+   "gamma": 0.1,
+   "alpha": 0.05,
+   "lam_final": 0.0,
+   "n": 378,
+   "coverage": 0.9841269841269841,
+   "bcr": 0.0,
+   "harm": 0.0
+  }
+ },
+ "REFLECT": {
+  "threshold": null,
+  "n": 756,
+  "answered": 564,
+  "coverage": 0.746031746031746,
+  "bcr": 0.38475177304964536,
+  "violation": 0.28703703703703703,
+  "by_family": {
+   "FACT": {
+    "n": 360,
+    "answered": 298,
+    "bcr": 0.4261744966442953
+   },
+   "STALE": {
+    "n": 66,
+    "answered": 61,
+    "bcr": 0.14754098360655743
+   },
+   "VINTAGE": {
+    "n": 66,
+    "answered": 66,
+    "bcr": 0.21212121212121215
+   },
+   "ULTRA": {
+    "n": 66,
+    "answered": 44,
+    "bcr": 0.7727272727272727
+   },
+   "MARKET": {
+    "n": 66,
+    "answered": 49,
+    "bcr": 0.34693877551020413
+   },
+   "SCOPE": {
+    "n": 66,
+    "answered": 46,
+    "bcr": 0.34782608695652173
+   },
+   "GAP": {
+    "n": 66,
+    "answered": 0,
+    "bcr": 0.0
+   }
+  }
+ },
+ "VCONF": {
+  "threshold": 1.0,
+  "n": 756,
+  "answered": 354,
+  "coverage": 0.46825396825396826,
+  "bcr": 0.4067796610169492,
+  "violation": 0.19047619047619047,
+  "by_family": {
+   "FACT": {
+    "n": 360,
+    "answered": 178,
+    "bcr": 0.3932584269662921
+   },
+   "STALE": {
+    "n": 66,
+    "answered": 32,
+    "bcr": 0.28125
+   },
+   "VINTAGE": {
+    "n": 66,
+    "answered": 37,
+    "bcr": 0.16216216216216217
+   },
+   "ULTRA": {
+    "n": 66,
+    "answered": 33,
+    "bcr": 0.7878787878787878
+   },
+   "MARKET": {
+    "n": 66,
+    "answered": 38,
+    "bcr": 0.5
+   },
+   "SCOPE": {
+    "n": 66,
+    "answered": 31,
+    "bcr": 0.29032258064516125
+   },
+   "GAP": {
+    "n": 66,
+    "answered": 5,
+    "bcr": 1.0
+   }
+  }
+ },
+ "SC5": {
+  "threshold": null,
+  "n": 756,
+  "answered": 667,
+  "coverage": 0.8822751322751323,
+  "bcr": 0.4062968515742129,
+  "violation": 0.3584656084656085,
+  "by_family": {
+   "FACT": {
+    "n": 360,
+    "answered": 358,
+    "bcr": 0.4273743016759777
+   },
+   "STALE": {
+    "n": 66,
+    "answered": 66,
+    "bcr": 0.18181818181818177
+   },
+   "VINTAGE": {
+    "n": 66,
+    "answered": 66,
+    "bcr": 0.18181818181818177
+   },
+   "ULTRA": {
+    "n": 66,
+    "answered": 50,
+    "bcr": 0.6799999999999999
+   },
+   "MARKET": {
+    "n": 66,
+    "answered": 64,
+    "bcr": 0.46875
+   },
+   "SCOPE": {
+    "n": 66,
+    "answered": 55,
+    "bcr": 0.4
+   },
+   "GAP": {
+    "n": 66,
+    "answered": 8,
+    "bcr": 1.0
+   }
+  }
+ }
+}
